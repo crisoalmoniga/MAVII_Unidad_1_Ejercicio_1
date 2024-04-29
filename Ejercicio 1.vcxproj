@@ -71,8 +71,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>D:\Universidad - Cris\Videojuegos\Universidad del Litoral\MAV2\Unidad 1\Ejercicio 1\Ejercicio 1\box2d\include;D:\Universidad - Cris\Videojuegos\Universidad del Litoral\MAV2\Unidad 1\Ejercicio 1\Ejercicio 1\SFML-2.5.1\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Universidad - Cris\Videojuegos\Universidad del Litoral\MAV2\Unidad 1\Ejercicio 1\Ejercicio 1\box2d\lib\vs2019\Debug;D:\Universidad - Cris\Videojuegos\Universidad del Litoral\MAV2\Unidad 1\Ejercicio 1\Ejercicio 1\SFML-2.5.1\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Universidad - Cris\Videojuegos\Universidad del Litoral\MAV2\Unidad 2\Ejercicio 1\MAVII_Unidad_1_Ejercicio_1\box2d\include;D:\Universidad - Cris\Videojuegos\Universidad del Litoral\MAV2\Unidad 2\Ejercicio 1\MAVII_Unidad_1_Ejercicio_1\SFML-2.5.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Universidad - Cris\Videojuegos\Universidad del Litoral\MAV2\Unidad 2\Ejercicio 1\MAVII_Unidad_1_Ejercicio_1\Externo\box2d\lib\vs2019\Debug;D:\Universidad - Cris\Videojuegos\Universidad del Litoral\MAV2\Unidad 1\Ejercicio 1\Ejercicio 1\box2d\lib\vs2019\Debug;D:\Universidad - Cris\Videojuegos\Universidad del Litoral\MAV2\Unidad 1\Ejercicio 1\Ejercicio 1\SFML-2.5.1\lib;D:\Universidad - Cris\Videojuegos\Universidad del Litoral\MAV2\Unidad 2\Ejercicio 1\MAVII_Unidad_1_Ejercicio_1\SFML-2.5.1\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
