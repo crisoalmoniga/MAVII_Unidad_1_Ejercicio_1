@@ -1,7 +1,14 @@
+#include <SFML/Config.hpp>
 #include "Game.h"
-#include <Box2D/Box2D.h> // Agregar esta inclusión para b2ContactEdge y b2Contact
+#include <Box2D/Box2D.h>
 
-Game::Game() : m_window(sf::VideoMode(800, 600), "SFML + Box2D"), m_world(b2Vec2(0.0f, 9.8f)), m_rectangulo(m_world) {
+// SFML
+#include <SFML/Graphics.hpp>
+#include <SFML/Window.hpp>
+#include <SFML/Window/Event.hpp>
+
+
+Game::Game() : m_window{ sf::RenderWindow(sf::VideoMode(800, 600), "SFML + Box2D") }, m_world(b2Vec2(0.0f, 9.8f)), m_rectangulo(m_world) {
 
     // Crear el piso (un cuerpo estático)
     b2BodyDef groundBodyDef;
